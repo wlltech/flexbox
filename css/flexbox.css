@@ -1,9 +1,15 @@
-.headerPrincipal .container{
+/** 
+El .container dentro del .headerPrincipal utiliza:
+- display: un diseño flexible, 
+- align-items: alinea los elementos verticalmente al centro y 
+- justify-content: distribuye los elementos horizontalmente con espacio entre ellos.
+**/
+.headerPrincipal .container {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.headerPrincipal-nav{
+.headerPrincipal-nav {
     display: flex;
 }
