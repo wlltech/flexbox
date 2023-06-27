@@ -16,16 +16,28 @@ El .container dentro del .headerPrincipal utiliza:
 
 .rodapePrincipal-patrocinadores .container{
     display: flex;
+    justify-content: space-between;
 }
 
 .rodapePrincipal-patrocinadores-list {
     align-items: center;
     display: flex;
     justify-content: space-around;
-    width: 75%;
+    width: 70%;
+    margin-right: 5%;
 }
 
 .rodapePrincipal-contatoForm {
-    display: flex;
     width: 25%;
+}
+
+.rodapePrincipal-contatoForm fieldset{
+    display: flex;
+}
+
+.rodapePrincipal-navMap-list {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 260px;
 }
