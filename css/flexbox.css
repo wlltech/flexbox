@@ -105,4 +105,8 @@ fieldset.rodapePrincipal-contatoForm-fieldset{
     justify-content: center;
     flex-direction: column;
 }
+
+.headerPrincipal-nav-link-app {
+    order: -1;
+}
 }
