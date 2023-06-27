@@ -41,3 +41,13 @@ El .container dentro del .headerPrincipal utiliza:
     flex-wrap: wrap;
     height: 260px;
 }
+
+.contenidoPrincipal-cursos {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.contenidoPrincipal-cursos-link{
+    display: flex;
+    width: 23%;
+}
