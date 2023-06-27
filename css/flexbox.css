@@ -14,7 +14,7 @@ El .container dentro del .headerPrincipal utiliza:
     display: flex;
 }
 
-.rodapePrincipal-patrocinadores .container{
+.rodapePrincipal-patrocinadores .container {
     display: flex;
     justify-content: space-between;
 }
@@ -31,7 +31,7 @@ El .container dentro del .headerPrincipal utiliza:
     width: 25%;
 }
 
-.rodapePrincipal-contatoForm fieldset{
+.rodapePrincipal-contatoForm fieldset {
     display: flex;
 }
 
@@ -47,66 +47,86 @@ El .container dentro del .headerPrincipal utiliza:
     flex-wrap: wrap;
 }
 
-.contenidoPrincipal-cursos-link{
+.contenidoPrincipal-cursos-link {
     display: flex;
     width: 23%;
 }
 
+.videoSobre .container {
+    display: flex;
+}
+
+.videoSobre-sobre {
+    text-align: center;
+    display: flex;
+    flex-direction: column; 
+}
+
+.videoSobre-video {
+    flex-grow: 2;
+}
+
+.videoSobre-button {
+    margin-top: auto;
+  }
+
+
 /* Estilos responsive */
 
-@media (max-width:768px){
+@media (max-width:768px) {
 
-.headerPrincipal .container {
-    flex-direction: column;
-    align-items: initial;
-    text-align: center;
+    .headerPrincipal .container {
+        flex-direction: column;
+        align-items: initial;
+        text-align: center;
+    }
+
+    .headerPrincipal-nav {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos {
+        flex-direction: column;
+    }
+
+    .contenidoPrincipal-cursos-link {
+        width: 100%;
+    }
+
+    .rodapePrincipal-navMap-list {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: 100%;
+        margin-left: 10%;
+    }
+
+    .rodapePrincipal-patrocinadores .container {
+        flex-direction: column;
+    }
+
+    .rodapePrincipal-contatoForm {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+    .rodapePrincipal-contatoForm-submit {
+        height: 39px;
+    }
+
+    .rodapePrincipal-patrocinadores-list {
+        align-items: center;
+        width: 100%;
+        margin: 0;
+    }
+
+    fieldset.rodapePrincipal-contatoForm-fieldset {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .headerPrincipal-nav-link-app {
+        order: -1;
+    }
 }
 
-.headerPrincipal-nav {
-    flex-direction: column;    
-}
-
-.contenidoPrincipal-cursos{
-    flex-direction: column;
-}
-
-.contenidoPrincipal-cursos-link {
-    width: 100%;
-}
-
-.rodapePrincipal-navMap-list{
-    flex-direction: column;
-    flex-wrap: nowrap;
-    height: 100%;
-    margin-left: 10%;
-}
-
-.rodapePrincipal-patrocinadores .container{
-    flex-direction: column;
-}
-
-.rodapePrincipal-contatoForm {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
-.rodapePrincipal-contatoForm-submit {
-    height: 39px;
-}
-
-.rodapePrincipal-patrocinadores-list{
-    align-items: center;
-    width: 100%;
-    margin: 0;
-}
-
-fieldset.rodapePrincipal-contatoForm-fieldset{
-    justify-content: center;
-    flex-direction: column;
-}
-
-.headerPrincipal-nav-link-app {
-    order: -1;
-}
-}
