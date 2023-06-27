@@ -5,11 +5,27 @@ El .container dentro del .headerPrincipal utiliza:
 - justify-content: distribuye los elementos horizontalmente con espacio entre ellos.
 **/
 .headerPrincipal .container {
-    display: flex;
     align-items: center;
+    display: flex;
     justify-content: space-between;
 }
 
 .headerPrincipal-nav {
     display: flex;
+}
+
+.rodapePrincipal-patrocinadores .container{
+    display: flex;
+}
+
+.rodapePrincipal-patrocinadores-list {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+    width: 75%;
+}
+
+.rodapePrincipal-contatoForm {
+    display: flex;
+    width: 25%;
 }
