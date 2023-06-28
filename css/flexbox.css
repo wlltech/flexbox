@@ -60,6 +60,7 @@ El .container dentro del .headerPrincipal utiliza:
     text-align: center;
     display: flex;
     flex-direction: column; 
+    flex-grow: 2;
 }
 
 .videoSobre-video {
@@ -70,7 +71,6 @@ El .container dentro del .headerPrincipal utiliza:
 .videoSobre-button {
     margin-top: auto;
   }
-
 
 /* Estilos responsive */
 
